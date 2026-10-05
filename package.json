@@ -1,0 +1,17 @@
+{
+  "name": "nc-express-postgres-sample",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A tiny Express API backed by PostgreSQL, for deploying on Naijacloud.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "pg": "^8.16.0"
+  }
+}
